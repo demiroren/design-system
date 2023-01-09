@@ -1,0 +1,14 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["src/stories"],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
