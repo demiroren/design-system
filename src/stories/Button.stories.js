@@ -1,10 +1,8 @@
 import MyButton from '../components/Button.vue'
 
-// More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: 'Components/Button',
   component: MyButton,
-  // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
   argTypes: {
     backgroundColor: { control: 'color' },
     size: {
@@ -14,28 +12,32 @@ export default {
   }
 }
 
-// More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MyButton },
   template: '<my-button @onClick="onClick" v-bind="$props" />'
 })
 
-export const Primary = Template.bind({})
-// More on args: https://storybook.js.org/docs/vue/writing-stories/args
-Primary.args = {
-  primary: true,
+export const Filled = Template.bind({})
+Filled.args = {
+  variant: 'filled',
   label: 'Button'
 }
 
-export const Secondary = Template.bind({})
-Secondary.args = {
+export const Outlined = Template.bind({})
+Outlined.args = {
+  variant: 'outlined',
   label: 'Button'
 }
 
 export const Large = Template.bind({})
 Large.args = {
   size: 'large',
+  label: 'Button'
+}
+
+export const Medium = Template.bind({})
+Medium.args = {
   label: 'Button'
 }
 
