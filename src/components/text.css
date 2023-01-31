@@ -1,0 +1,57 @@
+.storybook-text {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #000000;
+  }
+  .storybook-text--headline-3{
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .storybook-text--headline-4{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41px;
+  }
+  .storybook-text--headline-5{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .storybook-text--headline-6{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .storybook-text--subtitle-1{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .storybook-text--body-1{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .storybook-text--body-2{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .storybook-text--button{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+  }
+  .storybook-text--caption{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+  }
+  .storybook-text--overline{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    text-decoration: line-through ;
+  }
+
+  .storybook-text--bold {
+      font-weight: 700;
+    }
+    .storybook-text--medium {
+      font-weight: 500;
+    }
