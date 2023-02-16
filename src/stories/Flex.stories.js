@@ -1,7 +1,7 @@
 import Flex from '../components/Flex.vue'
 
 export default {
-  title: 'Example/Flex',
+  title: 'Components/Flex',
   component: Flex,
   argTypes: {
     flexDirection: {
