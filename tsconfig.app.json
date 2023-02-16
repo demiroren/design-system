@@ -6,7 +6,7 @@
     "composite": true,
     "baseUrl": ".",
     "isolatedModules": true,
-    
+    "allowJs": true,
     "paths": {
       "@/*": ["./src/*"]
     }
