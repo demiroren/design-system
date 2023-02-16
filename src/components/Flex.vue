@@ -61,15 +61,6 @@ export default {
     }
   },
   computed: {
-    // classObject() {
-    //   return {
-    //     'flex-container': true,
-    //     [`flex--${this.flexDirection}`]: true,
-    //     [`flex--${this.flexWrap}`]: true,
-    //     [`flex--${this.justifyContent}`]: true,
-    //     [`flex--${this.alignItems}`]: true
-    //   }
-    // }
     flexStyle() {
       return {
         display: 'flex',
